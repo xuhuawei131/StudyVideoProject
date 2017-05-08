@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2f2f2"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/item_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12.0dip" >
+
+        <CheckBox
+            android:id="@+id/item_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5.0dip"
+            android:button="@drawable/selector_classifylist_checkbox"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="@dimen/videolist_icon_width"
+                android:layout_height="@dimen/videolist_icon_height"
+                android:background="#ff000000"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/item_text_progress"
+                android:layout_width="@dimen/videolist_icon_width"
+                android:layout_height="16.0dip"
+                android:layout_gravity="bottom|left|center"
+                android:background="#bf000000"
+                android:gravity="center_vertical"
+                android:paddingLeft="3.0dip"
+                android:text="30%"
+                android:textColor="@color/item_progress_text_color"
+                android:textSize="10.0sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7.0dip"
+            android:layout_marginRight="11.0dip" >
+
+            <TextView
+                android:id="@+id/item_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dip"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:singleLine="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:text="标题"
+                android:textColor="#ff333333"
+                android:textSize="15.0sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/item_text_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_text_title"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center_vertical"
+                android:text="00:00:30"
+                android:textColor="#ff999999"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/item_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/item_text_duration"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/item_text_title"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center_vertical"
+                android:text="14M"
+                android:textColor="#ff999999"
+                android:textSize="13.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

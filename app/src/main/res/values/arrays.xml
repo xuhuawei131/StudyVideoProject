@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="splash_tips">
+        <item>欢迎您的到来，坚持住，美好的未来属于你</item>
+        <item>相信我，相信你，不信也没用啊 哈哈哈</item>
+        <item>程序可能会有错误，请原谅，因为我已经道歉了,哈哈</item>
+        <item>现在是测试阶段，先看看再说吧</item>
+    </string-array>
+    <string-array name="friendsOnmap_service_type">
+        <item>发信包月</item>
+        <item>钻石会员</item>
+    </string-array>
+    
+    <string-array name="image_quality_sel">
+        <item>图片质量优先</item>
+        <item>节省流量优先</item>
+    </string-array>
+    
+    <string-array name="map_mode_setting">
+        <item>默认列表模式</item>
+        <item>默认地图模式</item>
+        <item>根据网络自动切换</item>
+    </string-array>
+    <string-array name="map_mode_distance">
+        <item>1000米</item>
+        <item>2000米</item>
+        <item>5000米</item>
+    </string-array>
+    <string-array name="map_mode_conditions">
+        <item>最佳匹配</item>
+        <item>有车</item>
+        <item>有房</item>
+        <item>智能匹配</item>
+    </string-array>
+    <string-array name="map_mode_order">
+        <item>智能排序</item>
+        <item>年龄由低到高</item>
+        <item>登录时间由近到远</item>
+        <item>年龄由高到低</item>
+        <item>距离由近到远</item>
+    </string-array>
+</resources>

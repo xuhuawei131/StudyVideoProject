@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listview_swipewidth_localvideo">110.0dip</dimen>
+    <dimen name="listview_swipewidth_classify">55.0dip</dimen>
+    <dimen name="choice_dialog_item_height">48.0dip</dimen>
+    <dimen name="choice_dialog_width">268.0dip</dimen>
+    <dimen name="choice_dialog_item_leftmargin">13.0dip</dimen>
+    <dimen name="about_dialog_paddingleft">14.0dip</dimen>
+    <dimen name="about_dialog_paddingright">14.0dip</dimen>
+    <dimen name="about_dialog_paddingtop">20.0dip</dimen>
+    <dimen name="about_dialog_paddingbottom">20.0dip</dimen>
+    <dimen name="password_dialog_width">250.0dip</dimen>
+    <dimen name="videolist_icon_width">85.0dip</dimen>
+    <dimen name="videolist_icon_height">60.0dip</dimen>
+    <dimen name="classifylist_icon_width">83.0dip</dimen>
+    <dimen name="classifylist_icon_height">46.0dip</dimen>
+    <dimen name="seekbar_thumb_offset">10.0dip</dimen>
+    <dimen name="menu_width">110.0dip</dimen>
+</resources>
